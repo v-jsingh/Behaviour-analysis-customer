@@ -9,13 +9,8 @@ The goal is to demonstrate strong analytical thinking, SQL proficiency, dashboar
 
 📁 Dataset
 
-Source: dataset.csv (stored in /data/)
+Source: customer_shopping_behavior.csv (stored in C:\Users\acer\Downloads\New folder)
 
-Description: (Add a short summary, e.g., customer transactions, sales data, etc.)
-
-Rows: (Add count)
-
-Columns: (Add key column names)
 
 The dataset is used for Python EDA, SQL queries, and visualization in Power BI.
 
@@ -120,20 +115,48 @@ Files in /report/ folder
 
 📈 Dashboard Preview
 
-Screenshot available in /images/dashboard_preview.png
-(Add the actual image later)
+<img width="1337" height="773" alt="project" src="https://github.com/user-attachments/assets/d8f4a7bc-79e0-4940-bd60-897cd6053f97" />
 
-🧠 Key Results & Insights
 
-(Customize these based on your findings)
 
-Identified key performance drivers
-
-Recommended data-driven improvements
-
-Highlighted trends and high-value segments
-
-Presented insights in a business-friendly format
 
 ▶️ How to Run This Project
-1. Clone the repository
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/v-jsingh/Behavior-analysis-customer-SQL-Python-PowerBI.git
+   cd customer-trends-data-analysis-SQL-Python-PowerBI
+   ```
+2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+
+    This file contains:
+
+      - Data Import
+
+      - Data exploration
+
+      - Data cleaning
+
+      - Connection to SQL Database
+  
+3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+
+      - Create a database in SQL
+
+      - Run Python code to load data into SQL database
+  
+      - Open **customer_behavior_sql_queries.sql**
+  
+      - Answer Business Questions using SQL Queries 
+      
+4. **Connect the SQL Database to Power BI**
+
+      - Open **customer_behavior_dashboard.pbix**
+   
+      - Create interactive dashboard in Power BI
+  
+6. **Create Project Report and Presentation**
+
+      - Create project report
+   
+      - Build presentation deck using Gamma AI
